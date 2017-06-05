@@ -1,0 +1,55 @@
+@charset "utf-8";html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:62.5%;font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei}
+blockquote,body,code,dd,div,dl,dt,fieldset,figure,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul,button{margin:0;padding:0;list-style:none;-webkit-tap-highlight-color:transparent;color:#333}
+body,html{width:100%;margin:0 auto;position:relative;z-index:1;height:100%}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+code,input,kbd,pre,samp,textarea{font-size:100%;background:0 0;appearance:none;-webkit-appearance:none}
+button,input,select,textarea{border:none;border:medium;outline:0;-moz-appearance:none;-webkit-appearance:none;appearance:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{appearance:none;-webkit-appearance:none;margin:0;border-radius:0;-webkit-border-radius:0}
+body,button,input,select,textarea{font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei}
+ol,ul{list-style:none}
+a{text-decoration:none;-webkit-tap-highlight-color:rgb(0,0,0,0);outline:0;color:#333;}
+a:focus{outline:0} 
+a:hover{-webkit-user-select:none}
+a:active{star:expression(this.onFocus=this.blur())}
+img{width:100%;border:none;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.pr{position:relative}
+cite,em,i{font-style:normal}
+.clearfix{clear:both}
+.flex{ display: flex; }
+.fl{float:left}
+.hide{display: none}
+.show{display: block;}
+.ellipsis {text-overflow: ellipsis; white-space: nowrap;overflow: hidden;}
+.fr{float:right}
+.clear{clear: both;float: none;line-height: 0;height: 0}
+@media screen and (min-width:240px){body,button,html,input,select,textarea{font-size:9px}
+}
+@media screen and (min-width:320px){body,button,html,input,select,textarea{font-size:11px}
+}
+@media screen and (min-width:370px) and (max-width:420px){body,button,html,input,select,textarea{font-size:12px}
+}
+@media screen and (min-width:450px){body,button,html,input,select,textarea{font-size:17px}
+}
+@media screen and (min-width:480px){body,button,html,input,select,textarea{font-size:18px}
+}
+@media screen and (min-width:540px){body,button,html,input,select,textarea{font-size:20.25px}
+}
+@media screen and (min-width:600px){body,button,html,input,select,textarea{font-size:22px}
+}
+@media screen and (min-width:640px){body,button,html,input,select,textarea{font-size:24px}
+}
+@font-face{font-family:iconfont;src:url(../font/iconfont.eot);src:url(../font/iconfont.eot?#iefix) format('embedded-opentype'),url(../font/iconfont.woff) format('woff'),url(../font/iconfont.ttf) format('truetype'),url(../font/iconfont.svg#iconfont) format('svg')}
+.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased}
+.top_mask{position:fixed;top:0;left:0;z-index:55;width:100%;height:100%;background:#000;background:rgba(0,0,0,0.8);display: none;}
+.divAlert_main{position:fixed;left:50%;margin-left:-39%;top:50%;border-radius:5px;-webkit-border-radius:5px;width:78%;box-sizing:border-box;overflow:hidden;-webkit-box-sizing:border-box;z-index:120;}
+.warn_font{background:#FFF;font-size:1.4rem;color:#ff6a1e;line-height:2.4rem;border-bottom:1px solid #f1f1f1;text-align: center;padding: 2rem 0;}
+.alertBtn_ok{text-align:center;background:#fff;font-size:1.4rem;padding:10px 0;color:#ff600a;}
+.warn_font>p{
+	font-size: 1.2rem;
+	color: #333;
+	line-height: 2rem;
+	margin-top: 2%;
+}

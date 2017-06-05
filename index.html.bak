@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>家粉中心-首页</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="http://at.alicdn.com/t/font_yr3jv0bf93jfko6r.js"></script>
+	
+	<style type="text/css"> 
+		.clearfix:after{content:".";display:block;height:0;clear: both;visibility:hidden;}
+		.clearfix{*zoom:1;}  
+		.wrapper02 {position:relative;height: 4rem;width: 100%;overflow: hidden;background-color: #fff;} 
+		.wrapper02 .scroller {position:absolute;padding: 1rem .4rem 1rem .8rem}
+		.wrapper02 .scroller li {height: 1rem;color:#333;float: left;line-height: 1rem;font-size:1.4rem;text-align:center}
+		.wrapper02 .scroller li a{color: #333;line-height: 200%;padding:.5rem 0; margin-left: 1rem;}
+		.wrapper02 .scroller li.tab_active a{color: #fc454a;border-bottom: 2px solid #fc454a;}
+	</style>
+</head>
+<body class="bd_color"> 
+	<div class="wrapper02" id="xxx">
+		<div class="scroller">
+			<ul class="clearfix">
+				<li><a class="tab_active" href="javascript:void(0)">热卖</a></li>
+				<li><a href="javascript:void(0)">女性日用</a></li>
+				<li><a href="javascript:void(0)">创意生活</a></li>
+				<li><a href="javascript:void(0)">母婴</a></li>
+				<li><a href="javascript:void(0)">科技范</a></li>
+				<li><a href="javascript:void(0)">武汉</a></li>
+				<li><a href="javascript:void(0)">天津</a></li>
+				<li><a href="javascript:void(0)">郑州</a></li>
+				<li><a href="javascript:void(0)">海口</a></li>
+				<li><a href="javascript:void(0)">郑州</a></li>
+				<li><a href="javascript:void(0)">长春</a></li>
+				<li><a href="javascript:void(0)">长沙</a></li>
+				<li><a href="javascript:void(0)">南京</a></li>
+				<li><a href="javascript:void(0)">西安</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="t_limit clearfix">
+		<p class="fl font_red"><img src="./img/time.png">限时限量 疯狂抢购</p>
+		<div class="fr">距离本场结束 <span>36:34:33</span></div>
+	</div>
+	<ul class="goods_list">
+		<li>
+			<div class="goods_img"><img src="./img/sell_goods.jpg"></div>
+			<h2><span class="hot_sell">热卖</span>有品有料 给你最滋润的贴心</h2>
+			<div class="buy_bar clearfix">
+				<h2 class="fl"><span class="price">￥39.9 </span><span class="initial_cost">￥59 </span></h2>
+				<div class="fr"><a class="btn_buygo" href="">去抢购</a></div>
+			</div>
+		</li>
+		<li>
+			<div class="goods_img"><img src="./img/sell_goods.jpg"></div>
+			<h2><span class="hot_sell">热卖</span>有品有料 给你最滋润的贴心</h2>
+			<div class="buy_bar clearfix">
+				<h2 class="fl"><span class="price">￥39.9</span> <span class="initial_cost">￥59 </span></h2>
+				<div class="fr"><a class="btn_buygo" href="">去抢购</a></div>
+			</div>
+		</li>
+		<li>
+			<div class="goods_img"><img src="./img/sell_goods.jpg"></div>
+			<h2><span class="hot_sell">热卖</span>有品有料 给你最滋润的贴心</h2>
+			<div class="buy_bar clearfix">
+				<h2 class="fl"><span class="price">￥39.9</span> <span class="initial_cost">￥59 </span></h2>
+				<div class="fr"><a class="btn_buygo" href="">去抢购</a></div>
+			</div>
+		</li>
+	</ul>
+
+	
+	<div class="banner"><img src="./img/banner.jpg"></div>
+	<div class="nav_guide clearfix">
+		<a href=""><img src="./img/xianshi.png"><br>限时购</a>
+		<a href=""><img src="./img/pintuan.png"><br>拼团</a>
+		<a href=""><img src="./img/qiandao.png"><br>每日签到</a>
+	</div>
+	<ul class="goods_list">
+		<!-- <li>
+			<div class="goods_img"><img src="./img/sell_goods.jpg"></div>
+			<h2>有品有料 给你最滋润的贴心</h2>
+			<p>做人难，做女人更难，做一个365天24小时滋润水灵的女生简直难上加难！给肌肤送上最好的关怀...</p>
+			<div class="share share_box clearfix">
+				<div class="fl"><img src="./img/share.png">4393</div>
+				<div class="fr"><img src="./img/like.png">13468</div>
+			</div>
+		</li>
+		<li>
+			<div class="goods_img"><img src="./img/sell_goods.jpg"></div>
+			<h2>有品有料 给你最滋润的贴心</h2>
+			<p>做人难，做女人更难，做一个365天24小时滋润水灵的女生简直难上加难！给肌肤送上最好的关怀...</p>
+			<div class="share clearfix">
+				<div class="fl"><img src="./img/share.png">4393</div>
+				<div class="fr"><img src="./img/like.png">13468</div>
+			</div>
+		</li> -->
+		<li class="no-goods">暂无商品</li>
+	</ul>
+	<nav class="bar_bottom bar_tab">
+	    <a class="tab_item active" href="index.html">
+	      <svg class="icon" aria-hidden="true">
+		      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-gouwu"></use>
+		  </svg>
+	      <span class="tab-label">精品</span>
+	    </a>
+	    <a class="tab_item" href="shoutu.html">
+	      <svg class="icon" aria-hidden="true">
+		      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-gouwuche"></use>
+		  </svg>
+	      <span class="tab-label">购物车</span>
+	    </a>
+	    <a class="tab_item" href="tixian_center.html">
+	      <svg class="icon" aria-hidden="true">
+		      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-wode"></use>
+		  </svg>
+	      <span class="tab-label">我的</span>
+	    </a>
+	</nav>
+</body>
+</html>
+<script type="text/javascript" src="tjs/jquery.min.js"></script>
+<script type="text/javascript" src="tjs/iscroll.js"></script>
+<script type="text/javascript" src="tjs/navbarscroll.js"></script>
+<script type="text/javascript">
+	$(function(){ 
+		//demo示例五 通过id调取
+		$('#xxx').navbarscroll({
+			className:'tab_active', //当前选中点击元素的class类名<br />
+			defaultSelect:0,
+			endClickScroll:function(obj){
+				console.log(obj.text())
+			}
+		});
+		 
+	});
+</script>
